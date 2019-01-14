@@ -278,7 +278,33 @@ p {
 }
 
 
+.button {
+    font-weight: 400;
+    font-size: 1em;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    padding: .7em 1em .5em;
+    margin: .2em;
+    line-height: 2.4em;
+    border-radius: .25em;
+    color: #fff;
+    background: $theme-color;
+    &:hover {
+        text-decoration: underline;
+        background: darken($theme-color, 15%);
+    }
+    &:focus {
+        text-decoration: none;
+    }
+}
 
+.header {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+}
 
 .footer {
     padding-top: 30px;
