@@ -27,6 +27,13 @@
         <span class="project-tagline"> - {{ project.description }}</span>
       {% endif %}
 
+      {% if project.feature %}
+        <div class="project-item">
+          ابزار/تکنولوژی‌ها:
+            {{ project.feature | join: ' - ' }}
+        </div>
+      {% endif %}
+
     </div><!--//item-->
   {% endfor %}
 

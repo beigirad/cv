@@ -23,10 +23,8 @@
     title: فیکسچه
     description: 'اپلیکیشن ارایه خدمات و رزرو تعمیر محصولات شرکت آروند تحت برند فیکسچه'
     feature:
-        - 'فرم های کاملا داینامیک'
-        - 'سازگار با افزونه محبوب Gravity Form وردپرس'
-        - 'طراحی متریال'
-        - 'Firebase Notification'
+        - Integrated with WP GravityForm plugin
+        - Firebase Notification
     logo: /assets/images/fixche.jpg
     screenshots:
         - /assets/images/screenshot/fixche01.jpg
@@ -38,8 +36,8 @@
     title: 'پیک ۶۰'
     description: 'درخواست آنلاین پیک از طریق اپلیکیشن'
     feature:
-        - 'طراحی متریال'
-        - 'Firebase Notification'
+        - Networking via REST Api
+        - Firebase Notification
     logo: /assets/images/peyk60.jpg
     screenshots:
         - /assets/images/screenshot/peyk6001.jpg
@@ -59,10 +57,9 @@
     title: 'اپلیکیشن بوکچه'
     description: 'اپلیکیشن تخصصی خرید آنلاین کتاب های رمان'
     feature:
-        - 'نوشته شده با جاوا/کاتلین'
-        - 'طراحی متریال'
-        - 'پیاده سازی و مانیتور رفتار کاربران'
-        - 'پیاده سازی سرویس های fabric'
+        - Java/Kotlin
+        - Material design
+        - Fabric event services
     logo: /assets/images/bookche.jpg
     screenshots:
         - /assets/images/screenshot/bookche01.jpg
@@ -87,10 +84,10 @@
     title: 'اپلیکیشن نیمه گمشده'
     description: 'نیمه گمشده به عنوان یک اپلیکشن در زمینه موفقیت میباشد که درآن شاهد طراحی متریال و چشم نواز خواهید بود. امکان دانلود و پخش پادکست های دسته‌بندی شده امکان مطالعه مطالب اپلیکیشن و نوت برداری از آنها متصل به بازار و پرداخت درون برنامه ای'
     feature:
-        - 'طراحی متریال'
-        - 'Remote config'
-        - 'محتوای رمزنگاری شده'
-        - 'پرداخت درون برنامه امن'
+        - Material design
+        - Firebase Remote Config
+        - Encrypted content
+        - Secured Bazaar IAP
     logo: /assets/images/nimegomshode.jpg
     screenshots:
         - /assets/images/screenshot/nimegomshode01.jpg
@@ -110,9 +107,16 @@
         bazaar: 'http://cafebazaar.ir/app/ir.beigirad.nimegomshode/'
         apk: /assets/apk/nimegomshode.apk
 -
-    title: 'اپلیکیشن مانیار'
-    description: 'مانیار اولین شبکه اجتماعی مالی پیام رسان است که امکان انتقال وجه سریع، آسان و امن را به سادگی ارسال پیام فراهم می کند. امکاناتی چون دنگ پیشرفته سرمایه‌گذاری جمعی انتقال وجه'
-    feature: null
+    title: اپلیکیشن مانیار
+    description: >
+     مانیار اولین شبکه اجتماعی مالی پیام رسان است که 
+     امکان انتقال وجه سریع، آسان و امن را به سادگی ارسال پیام فراهم می کند. 
+     امکاناتی چون دنگ پیشرفته سرمایه‌گذاری جمعی انتقال وجه
+    feature: 
+        - RxJava
+        - Retrofit
+        - Room
+        - Firebase Cloud Messaging
     logo: null
     screenshots: null
     link:
