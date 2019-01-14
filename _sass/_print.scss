@@ -7,6 +7,10 @@
        font-size: 12pt;
     }
 
+    a[href]:after {
+        content: none !important;
+    }
+
     img.avatar {
         filter: grayscale(1);
         -webkit-filter: greyscale(1);
