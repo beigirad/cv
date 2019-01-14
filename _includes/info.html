@@ -1,0 +1,19 @@
+{% assign info = site.data.profile.info %}
+{% if info %}
+<div class="languages-container container-block">
+
+  <h2 class="container-block-title">
+    مشخصات فردی
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {%for i in info %}
+    <li>
+      {{ i.key }}:
+      <span class="lang-desc">{{ i.value }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}
