@@ -16,7 +16,9 @@
 
       <div class="upper-row">
         <span class="job-title">{{ experience.role }}</span>
-        <span class="time">{{ experience.time }}</span>
+        <span class="time" title="{{ experience.time.startM  }} {{ experience.time.startY  }} تا {{ experience.time.endM}} {{ experience.time.endY}}" >
+          ( {{experience.time.length}} ) {{ experience.time.endY}} - {{ experience.time.startY  }}
+        </span>
       </div><!--//upper-row-->
       <div class="company">
       <span class="name">
