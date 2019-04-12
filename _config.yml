@@ -7,7 +7,7 @@ theme_skin: blue # blue turquoise green berry orange ceramic
 
 # Tracker
 analytics: UA-83979019-1
-
+google-gtag: UA-138242990-1
 # Sass/SCSS
 sass:
   sass_dir: _sass
