@@ -304,8 +304,13 @@ p {
 
 .header {
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     text-align: center;
+
+    .description {
+        direction: rtl;
+        padding: 15px 10px 10px 10px;
+    }
 }
 
 .footer {
