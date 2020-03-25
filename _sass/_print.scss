@@ -15,11 +15,16 @@
         filter: grayscale(1);
         -webkit-filter: greyscale(1);
     }
-   .main-wrapper .time {
-       float: left;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
+   .main-wrapper {
+        .time {
+            float: left;
+            color: black !important;
+            -webkit-print-color-adjust: exact; 
+        }
+        .summary{
+            font-size: 11pt;
+        }
+    }
     .sidebar-wrapper {
         position: static;
         float: right;
