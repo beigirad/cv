@@ -107,6 +107,7 @@
         bazaar: 'http://cafebazaar.ir/app/ir.beigirad.nimegomshode/'
         apk: /assets/apk/nimegomshode.apk
 -
+    visiable: false
     title: اپلیکیشن مانیار
     description: >
      مانیار اولین شبکه اجتماعی مالی پیام رسان است که 

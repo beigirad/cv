@@ -17,7 +17,8 @@
   {% endif %}
 
   {% for project in projects reversed %}
-  <div class="item content">
+    {% if project.visiable!= false %}
+    <div class="item content">
 
       <span class="project-title">
         {% if project.link %}
@@ -38,7 +39,8 @@
         </div>
       {% endif %} -->
 
-    </div><!--//item-->
+      </div><!--//item-->
+    {% endif %}
   {% endfor %}
 
 </section><!--//section-->
